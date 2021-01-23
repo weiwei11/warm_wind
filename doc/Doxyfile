@@ -1,0 +1,15 @@
+PROJECT_NAME           = "common_utils"
+PROJECT_NUMBER         = ..
+STRIP_FROM_PATH        = /home/ww/code/common_utils \
+                         /home/ww/code/common_utils/cmake-build-debug
+INPUT                  =  \
+                         /home/ww/code/common_utils \
+                         /home/ww/code/common_utils/cmake-build-debug
+FILE_PATTERNS          = *.h \
+                         *.cpp
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXCLUDE_PATTERNS       = */thirdparty/*
+USE_MDFILE_AS_MAINPAGE = 
